@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@use '/buttons';
+.button-500 {
+  border-radius: 4px;
+  padding: 12px 24px;
+  background-color: #A53DFF;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.button-600 {
+  border-radius: 4px;
+  padding: 12px 24px;
+  background-color: #8431CC;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.button-500-outline {
+  border: 1px solid #A53DFF;
+  border-radius: 4px;
+  padding: 12px 24px;
+  color: #A53DFF;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.button-600-outline {
+  border: 1px solid #8431CC;
+  border-radius: 4px;
+  padding: 12px 24px;
+  color: #8431CC;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Poppins',sans-serif;
+  width: 100vw;
+}
+
+body .fluid-container {
+  padding: 0 300px;
+}
+
+body .blue-button {
+  background-color: #A53DFF;
+  border-radius: 10px;
+  padding: 12px 24px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+body nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body nav .navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body nav #logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 50%;
+  background-color: #A53DFF;
+  width: 56px;
+  height: 56px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+
+body nav #logo-text {
+  font-size: 32px;
+  font-weight: 600;
+  margin-left: 12px;
+}
+
+body nav li {
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+body .hero {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (3)[1fr];
+      grid-template-columns: repeat(1fr, 3);
+}
+
+body .left-top {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+}
+
+body .left-top h1 {
+  font-size: 72px;
+  font-weight: 600;
+  margin: 178px 0 24px 0;
+}
+
+body .left-top p {
+  margin-bottom: 24px;
+}
+
+body .left-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .left-bottom .pink-card {
+  max-width: 200px;
+  text-align: center;
+  background-color: #DBB1FF;
+}
+
+body .left-bottom .pink-card .span {
+  display: block;
+}
+
+body img {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  max-width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

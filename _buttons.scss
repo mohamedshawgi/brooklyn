@@ -1,0 +1,32 @@
+.button-500{
+    border-radius: 4px;
+    padding: 12px 24px;
+    background-color: $Primary-500;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+.button-600{
+    border-radius: 4px;
+    padding: 12px 24px;
+    background-color: $Primary-600;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+.button-500-outline{
+    border: 1px solid $Primary-500;
+    border-radius: 4px;
+    padding: 12px 24px;
+    color: $Primary-500;
+    font-weight: 600;
+    font-size: 16px;
+}
+.button-600-outline{
+    border: 1px solid $Primary-600;
+    border-radius: 4px;
+    padding: 12px 24px;
+    color: $Primary-600;
+    font-weight: 600;
+    font-size: 16px;
+}
